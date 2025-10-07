@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en" class="overflow-x-hidden">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="./output.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<header class="flex justify-center items-center text-black w-full h-[70px] text-xl font-bold border-gray-300 border-b">BodyNBody
+
+  </header>
+
+<body class="bg-white font-sans text-gray-800 overflow-x-hidden">
+
+  <div class="w-full mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">
+
+    <!-- LEFT SIDE (Scrollable Form Section) -->
+    <div class="h-auto mx-4 sm:mx-28 md:mx-32 lg:mx-0 lg:ml-16 xl:ml-44 pr-4 mt-7 pb-4">
+
+      <!-- Contact Section -->
+      <h2 class="text-xl font-bold mb-4">Contact</h2>
+      <input type="text" placeholder="Email or mobile phone number"
+        class="w-full border border-gray-300 rounded-md p-3 mb-3 focus:outline-none focus:border-2 focus:border-[#F6821D]">
+
+      <label class="flex items-center space-x-2 mb-6">
+        <input type="checkbox" checked class="text-[#F6821D] focus:ring-[#F6821D]">
+        <span>Email me with news and offers</span>
+      </label>
+
+      <!-- Delivery Section -->
+      <h2 class="text-xl font-bold mb-4">Delivery</h2>
+
+      <select
+        class="w-full border border-gray-300 rounded-md p-3 mb-3 focus:outline-none focus:border-2 focus:border-[#F6821D] text-gray-700">
+        <option>Pakistan</option>
+        <option>India</option>
+        <option>USA</option>
+      </select>
+
+      <div class="flex gap-3 mb-3">
+        <input type="text" placeholder="First name"
+          class="w-1/2 border border-gray-300 rounded-md p-3 focus:outline-none focus:border-2 focus:border-[#F6821D]">
+        <input type="text" placeholder="Last name"
+          class="w-1/2 border border-gray-300 rounded-md p-3 focus:outline-none focus:border-2 focus:border-[#F6821D]">
+      </div>
+
+      <input type="text" placeholder="Address"
+        class="w-full border border-gray-300 rounded-md p-3 mb-3 focus:outline-none focus:border-2 focus:border-[#F6821D]">
+
+      <div class="flex gap-3 mb-3">
+        <input type="text" placeholder="City"
+          class="w-1/2 border border-gray-300 rounded-md p-3 focus:outline-none focus:border-2 focus:border-[#F6821D]">
+        <input type="text" placeholder="Postal code (optional)"
+          class="w-1/2 border border-gray-300 rounded-md p-3 focus:outline-none focus:border-2 focus:border-[#F6821D]">
+      </div>
+
+      <input type="text" placeholder="Phone"
+        class="w-full border border-gray-300 rounded-md p-3 mb-3 focus:outline-none focus:border-2 focus:border-[#F6821D]">
+
+      <label class="flex items-center space-x-2 mb-8">
+        <input type="checkbox" class="text-[#F6821D] focus:ring-amber-500">
+        <span>Save this information for next time</span>
+      </label>
+
+      <!-- Shipping Method -->
+      <h2 class="text-xl font-bold mb-3">Shipping method</h2>
+      <div class="border border-orange-400 bg-orange-50 rounded-lg p-4 flex justify-between items-center mb-6">
+        <span class="font-medium text-gray-700">Free Shipping</span>
+        <span class="text-gray-700 font-semibold">FREE</span>
+      </div>
+
+      <!-- Payment Section -->
+      <h2 class="text-xl font-bold mb-3">Payment</h2>
+      <p class="text-gray-500 text-sm mb-3">All transactions are secure and encrypted.</p>
+
+      <div class="space-y-3 mb-6">
+        <label
+          class="flex items-center justify-between border border-orange-400 bg-orange-50 rounded-lg p-4 cursor-pointer">
+          <div class="flex items-center space-x-3">
+            <input type="radio" name="payment" checked class="text-[#F6821D] focus:ring-[#F6821D]">
+            <span class="font-medium text-gray-700">Cash on Delivery (COD)</span>
+          </div>
+        </label>
+
+        <label class="flex items-center justify-between border border-gray-300 rounded-lg p-4 cursor-pointer">
+          <div class="flex items-center space-x-3">
+            <input type="radio" name="payment" class="text-[#F6821D] focus:ring-[#F6821D]">
+            <span class="font-medium text-gray-700">PayFast (Debit/Credit/Wallet/Bank)</span>
+          </div>
+        </label>
+      </div>
+
+      <!-- Billing Address -->
+      <h2 class="text-xl font-bold mb-3">Billing address</h2>
+      <div class="space-y-3 mb-6">
+        <label
+          class="flex items-center justify-between border border-orange-400 bg-orange-50 rounded-lg p-4 cursor-pointer">
+          <div class="flex items-center space-x-3">
+            <input type="radio" name="billing" checked class="text-[#F6821D] focus:ring-[#F6821D]">
+            <span class="font-medium text-gray-700">Same as shipping address</span>
+          </div>
+        </label>
+
+        <label class="flex items-center justify-between border border-gray-300 rounded-lg p-4 cursor-pointer">
+          <div class="flex items-center space-x-3">
+            <input type="radio" name="billing" class="text-[#F6821D] focus:ring-[#F6821D]">
+            <span class="font-medium text-gray-700">Use a different billing address</span>
+          </div>
+        </label>
+      </div>
+
+      <!-- Complete Order Button -->
+      <button
+        class="w-full bg-[#F6821D] hover:bg-orange-600 text-white font-semibold py-3 rounded-md transition-colors duration-200">
+        Complete order
+      </button>
+
+      <!-- Footer Links -->
+      <div class="flex flex-wrap gap-2 sm:gap-4 text-sm text-orange-600 mt-8 border-t pt-4">
+        <a href="#" class="hover:underline text-sm md:text-base">Refund policy</a>
+        <a href="#" class="hover:underline text-sm md:text-base">Shipping</a>
+        <a href="#" class="hover:underline text-sm md:text-base">Privacy policy</a>
+        <a href="#" class="hover:underline text-sm md:text-base">Terms of service</a>
+      </div>
+    </div>
+
+    <!-- RIGHT SIDE (Sticky Summary Section) -->
+    <div class="bg-gray-100 p-5 h-full lg:sticky md:top-4 md:px-32 px-4 sm:px-28 lg:px-4 lg:pr-12 xl:pr-44 pt-7">
+      <div class="flex items-center space-x-3 border-b pb-4 mb-4">
+        <img src="111.webp" alt="Product" class="h-16 rounded-md">
+        <div>
+          <p class="font-semibold text-sm">Rice Extract Facial Kit For Bright & Glowing Skin</p>
+          <p class="text-gray-500 text-xs">1 × Rs. 2,499.00</p>
+        </div>
+        <span class="ml-auto font-semibold">Rs. 2,499.00</span>
+      </div>
+
+      <div class="mb-4 flex gap-4">
+        <input type="text" placeholder="Discount code"
+          class="border border-gray-300 bg-white rounded-md p-3 w-2/3 focus:outline-none focus:border-2 focus:border-[#F6821D]">
+        <button class="border border-gray-300 rounded-md bg-gray-100 text-gray-500 px-5 py-3">Apply</button>
+      </div>
+
+      <div class="flex justify-between mb-2 text-gray-600">
+        <span>Subtotal</span>
+        <span>Rs. 2,499.00</span>
+      </div>
+
+      <div class="flex justify-between mb-2 text-gray-600">
+        <span>Shipping</span>
+        <span>Free</span>
+      </div>
+
+      <div class="border-t my-2"></div>
+
+      <div class="flex justify-between items-center font-bold text-lg">
+        <span>Total</span>
+        <span class="text-black">PKR Rs. 2,499.00</span>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>

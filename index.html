@@ -1,0 +1,604 @@
+<!doctype html>
+<html lang="en" class="overflow-x-hidden">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="./output.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="font-[arial] overflow-x-hidden">
+  <header class="">
+    <nav
+      class="bg-black text-gray-100 text-sm p-3.5 flex flex-col md:flex-row justify-center items-center h-auto md:h-11 w-full">
+      <div class=" text-center">
+        Customer Support
+      </div>
+      <a href="tel:042111000990">
+        📞 042-111-000-990
+      </a>
+    </nav>
+
+    <div class="">
+
+      <input type="checkbox" id="menu-toggle" class="hidden peer">
+
+      <div
+        class="h-[60px] md:h-[40px] sm:h-[70px] lg:h-[90px] text-[12px] lg:mx-[15px] text-[#878787] flex justify-between items-center">
+        <label for="menu-toggle" class="lg:hidden md:mt-4 lg:mt-0 cursor-pointer">
+          <i class="fa-solid fa-bars text-3xl text-black"></i>
+        </label>
+
+        <div class="hidden lg:flex items-center gap-3 mx-4">
+          <img src="facefin.png" alt="Company Logo" class="h-[15px] sm:h-[20px] w-[15px] sm:w-[20px]  transition-transform duration-700
+   hover:-translate-y-2 cursor-pointer" />
+          <img src="instafin.png" alt="Company Logo" class="h-[15px] sm:h-[20px] w-[15px] sm:w-[20px]  transition-transform duration-700
+   hover:-translate-y-2 cursor-pointer" />
+          <img src="youtube.fin.png" alt="Company Logo" class="h-[15px] sm:h-[20px] w-[15px] sm:w-[20px]  transition-transform duration-700 
+   hover:-translate-y-2 cursor-pointer" />
+          <img src="tikfin.png" alt="Company Logo" class="h-[18px] sm:h-[25px] w-[18px] sm:w-[25px]  transition-transform duration-700 
+   hover:-translate-y-2 cursor-pointer" />
+
+
+        </div>
+
+        <div class="flex justify-center md:flex-none md:ml-32 lg:ml-0 lg:flex-none md:pt-[12px] lg:p-[10px]">
+          <img src="logo.avif" alt="Company Logo"
+            class="h-[60px] w-[130px] md:h-[70px] md:w-[140] lg:h-[80px] lg:w-[150px] sm:h-[70px] sm:w-[140px] cursor-pointer p-[3px] sm:p-[10px]" />
+        </div>
+
+        <div class="flex justify-center items-center md:mt-4 lg:mt-0 mx-3 gap-2 sm::mx-4 sm::gap-3">
+          <img src="searchfin.png" alt="Company Logo" class="cursor-pointer h-[25px] w-[25px] transition duration-300 ease-in-out 
+           hover:scale-110 hover:text-[#F6821D] fill-current" />
+          <img src="user.png" alt="Company Logo" class="hidden md:block cursor-pointer h-[20px] w-[20px] sm:h-[30px] sm:w-[30px] transition duration-700 ease-in-out 
+           hover:scale-110 hover:text-[#F6821D]" />
+          <img src="lik.png" alt="Company Logo" class="hidden md:block cursor-pointer h-[27px] w-[27px] sm:h-[35px] sm:w-[35px] transition duration-700 ease-in-out 
+           hover:scale-110 hover:text-[#F6821D]" />
+          <img src="cartfin.png" alt="Company Logo" class="cursor-pointer h-[30px] w-[30px] transition duration-700 ease-in-out 
+           hover:scale-110 hover:text-[#F6821D] " />
+        </div>
+      </div>
+
+
+
+      <div class="hidden lg:block">
+        <ul
+          class="text-black text-xs sm:text-sm mx-3 lg:mx-0 lg:text-[13px] flex flex-wrap justify-center items-center gap-4 lg:gap-10 mt-[25px] ">
+          <li>
+            <a href="index.html" class="hover:text-[#F6821D] cursor-pointer duration-300">Home</a>
+          </li>
+          <li>
+            <a href="page1.html" class="text-green-500 hover:text-[#F6821D] duration-300">New Arival</a>
+          </li>
+          <li>
+            <a class="hover:text-[#F6821D] cursor-pointer duration-300">Shop All</a>
+          </li>
+          <li>
+            <a class="hover:text-[#F6821D] cursor-pointer duration-300">Skin Care</a>
+          </li>
+          <li>
+            <a href="haircare.html" class="hover:text-[#F6821D] duration-300">Hair Care</a>
+          </li>
+          <li>
+            <a class="hover:text-[#F6821D] cursor-pointer duration-300">Bundle Deals</a>
+          </li>
+          <li>
+            <a href="vitaminc.html" class="hover:text-[#F6821D] duration-300">Vitamin C Products</a>
+          </li>
+          <li>
+            <a class="hover:text-[#F6821D] cursor-pointer duration-300">Rice Extract Products</a>
+          </li>
+          <li>
+            <a class="hover:text-[#F6821D] cursor-pointer duration-300">Happy Customers</a>
+          </li>
+          <li>
+            <a href="beautyblog.html" class="hover:text-[#F6821D] duration-300">Beauty Blog</a>
+          </li>
+
+        </ul>
+      </div>
+
+
+      <div class="hidden peer-checked:block fixed inset-0 bg-black bg-opacity-50 z-40"></div>
+      <div
+        class="peer-checked:block hidden sm:hidden bg-white py-3 shadow-md transition-all duration-300 w-[calc(100%-3rem)] max-w-[570px] sm:w-[350px] h-screen overflow-y-auto fixed left-0 z-50 top-0">
+        <label for="menu-toggle" class="absolute top-4 right-4 text-2xl text-gray-600 hover:text-black cursor-pointer">
+          <i class="fa-solid fa-xmark"></i>
+        </label>
+        <ul class="flex flex-col text-sm text-[#222222]">
+          <li class="border-b border-gray-200 cursor-pointer"><a class=" block w-full py-4 px-4 text-2xl">Menu</a></li>
+          <li class="border-b border-gray-200 cursor-pointer hover:bg-gray-100"><a href="index.html"
+              class=" block w-full py-4 px-4">Home</a></li>
+          <li class="border-b border-gray-200 cursor-pointer hover:bg-gray-100"><a href="page1.html"
+              class="text-green-500  block w-full py-4 px-4">New Arrival</a></li>
+          <li class="border-b border-gray-200 cursor-pointer hover:bg-gray-100"><a class=" block w-full py-4 px-4">Shop
+              All</a></li>
+          <li class="border-b border-gray-200 cursor-pointer hover:bg-gray-100"><a class=" block w-full py-4 px-4">Skin
+              Care</a></li>
+          <li class="border-b border-gray-200 cursor-pointer hover:bg-gray-100"><a href="haircare.html"
+              class=" block w-full py-4 px-4">Hair Care</a></li>
+          <li class="border-b border-gray-200 cursor-pointer hover:bg-gray-100"><a
+              class=" block w-full py-4 px-4">Bundle Deals</a></li>
+          <li class="border-b border-gray-200 cursor-pointer hover:bg-gray-100"><a href="vitaminc.html"
+              class=" block w-full py-4 px-4">Vitamin C Products</a></li>
+          <li class="border-b border-gray-200 cursor-pointer hover:bg-gray-100"><a class=" block w-full py-4 px-4">Rice
+              Extract Products</a></li>
+          <li class="border-b border-gray-200 cursor-pointer hover:bg-gray-100"><a class=" block w-full py-4 px-4">Happy
+              Customers</a></li>
+          <li class="border-b border-gray-200 cursor-pointer hover:bg-gray-100"><a href="beautyblog.html"
+              class=" block w-full py-4 px-4">Beauty Blog</a></li>
+          <li class="border-b border-gray-200 cursor-pointer hover:bg-gray-100">
+            <span class=" block w-full py-4 px-4">
+              <i class="fa-solid fa-magnifying-glass"></i>Search
+            </span>
+          </li>
+          <li class="border-b border-gray-200 cursor-pointer hover:bg-gray-100">
+            <span class=" block w-full py-4 px-4">
+              <i class="fa-solid fa-user"></i>Login / Register
+            </span>
+          </li>
+          <li class="border-b border-gray-200 cursor-pointer hover:bg-gray-100">
+            <span class=" block w-full pt-4 pb-1 px-4">Need help?</span>
+            <div class="py-1 px-5">
+              <i class="fa-solid fa-phone"></i>042-111-000-990
+            </div>
+            <div class="py-1 px-5">
+              <i class="fa-brands fa-whatsapp"></i>042-111-000-990(Watsapp)
+            </div>
+            <span class=" block w-full py-4 px-4">
+              <i class="fa-solid fa-envelope"></i>Support@bodynbody.com
+            </span>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+
+  </header>
+  <!-- hero section -->
+  <img src="herof.webp" alt="Company Logo"
+    class="hidden md:block sm:h-[280px] md:h-[300px] lg:h-[400px] xl:h-[450px] h-[600px] object-cover w-full cursor-pointer md:mt-5" />
+  <img src="hero2f.webp" alt="Company Logo"
+    class="sm:h-[1200px] md:h-[450px] lg:h-[500px] xl:h-[600px] h-[900px] object-cover w-full cursor-pointer md:hidden" />
+
+  <div class="text-center mt-6 sm:mt-8 md:mt-10 font-bold ">
+    <h3 class="text-lg sm:text-xl md:text-2xl lg:text-3xl">
+
+      <!-- shop by category -->
+      <span>Shop By Category</span>
+    </h3>
+  </div>
+
+  <!-- grid section -->
+  <div
+    class=" max-w-[1200px] mx-auto grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8 p-6 items-center">
+
+    <img src="1.webp" alt="Company Logo" class="h-auto w-full object-cover cursor-pointer" />
+    <img src="2.webp" alt="Company Logo" class="h-auto w-full object-cover cursor-pointer" />
+    <img src="3.webp" alt="Company Logo" class="h-auto w-full object-cover cursor-pointer" />
+    <img src="4.webp" alt="Company Logo" class="h-auto w-full object-cover cursor-pointer" />
+    <img src="5.webp" alt="Company Logo" class="h-auto w-full object-cover cursor-pointer" />
+    <img src="6.webp" alt="Company Logo" class="h-auto w-full object-cover cursor-pointer" />
+  </div>
+
+  <!-- best selling -->
+
+  <div
+    class="flex flex-col lg:flex-row justify-center items-center lg:justify-between mx-4 lg:mx-20 h-auto lg:h-[100px]">
+    <h3 class="text-[20px] lg:text-[24px] font-bold lg:mt-10">Best Selling</h3>
+    <button
+      class=" lg:mt-11  h-[40px] lg:h-[45px] w-[120px] lg:w-[150px] bg-[#222222] text-white hover:bg-[#F6821D] duration-700 cursor-pointer">View
+      All→</button>
+  </div>
+
+  <!-- grid section -->
+  <input type="checkbox" id="product1-modal" class="peer hidden">
+  <div
+    class="max-w-[1200px] mx-auto h-auto grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 p-6 items-center">
+    <div class="h-auto w-full lg:h-[370px] lg:w-[280px]">
+
+      <label for="product1-modal" class="block cursor-pointer">
+        <img src="111.webp" alt="Company Logo"
+          class="lg:h-[260px] lg:w-[260px] object-cover cursor-pointer transition duration-1000 ease-in-out hover:scale-110" />
+      </label>
+
+      <div class="text-center text-sm lg:text-base">
+        <label for="product1-modal" class="cursor-pointer hover:text-[#F6821D] duration-300">Rice Extract For Facial Kit
+          For Bright & Glowing
+          Skin</label>
+        <span class="text-[#878787]">(4.8)</span>
+        <a class="cursor-pointer">1629 Reviews</a>
+        <p class="text-red-500">Rs.2,499</p>
+      </div>
+    </div>
+
+
+    <div class="h-auto w-full lg:h-[370px] lg:w-[280px]">
+      <img src="222.webp" alt="Company Logo"
+        class="lg:h-[260px] lg:w-[260px] object-cover cursor-pointer transition duration-1000 ease-in-out hover:scale-110" />
+
+      <div class="text-center text-sm lg:text-base">
+        <p class="cursor-pointer hover:text-[#F6821D] duration-300">Accne Control Kit</p>
+        <span class="text-[#878787]">(4.8)</span>
+        <a class="cursor-pointer">185 Reviews</a>
+        <p class="text-red-500">Rs.4,300</p>
+      </div>
+    </div>
+
+
+
+    <div class="h-auto w-full lg:h-[370px] lg:w-[280px]">
+      <img src="333.webp" alt="Company Logo"
+        class="lg:h-[260px] lg:w-[260px] object-cover cursor-pointer transition duration-1000 ease-in-out hover:scale-110" />
+
+      <div class="text-center text-sm lg:text-base">
+        <p class="cursor-pointer hover:text-[#F6821D] duration-300">Pink Glow Kit</p>
+        <span class="text-[#878787]">(4.8)</span>
+        <a class="cursor-pointer">87 Reviews</a>
+        <p class="text-red-500">Rs.3,225</p>
+      </div>
+    </div>
+
+    <div class="h-auto w-full lg:h-[370px] lg:w-[280px]">
+      <img src="444.webp" alt="Company Logo"
+        class="lg:h-[260px] lg:w-[260px] object-cover cursor-pointer transition duration-1000 ease-in-out hover:scale-110" />
+
+      <div class="text-center text-sm lg:text-base">
+        <p class="cursor-pointer hover:text-[#F6821D] duration-300">Vitamin C Night Care Kit</p>
+        <span class="text-[#878787]">(4.8)</span>
+        <a class="cursor-pointer">44 Reviews</a>
+        <p class="text-red-500">Rs.3,099</p>
+      </div>
+    </div>
+
+    <div class="h-auto w-full lg:h-[370px] lg:w-[280px]">
+      <img src="11.webp" alt="Company Logo"
+        class="lg:h-[260px] lg:w-[260px] object-cover cursor-pointer transition duration-1000 ease-in-out hover:scale-110" />
+
+      <div class="text-center text-sm lg:text-base">
+        <p class="cursor-pointer hover:text-[#F6821D] duration-300">Opulent Glow Bundle</p>
+        <span class="text-[#878787]">★ ★ ★ ★ ★(4.8)</span>
+        <a class="cursor-pointer">105 Reviews</a>
+        <p class="text-red-500">Rs.3,549</p>
+      </div>
+    </div>
+
+    <div class="h-auto w-full lg:h-[370px] lg:w-[280px]">
+      <img src="22.webp" alt="Company Logo"
+        class="lg:h-[260px] lg:w-[260px] object-cover cursor-pointer transition duration-1000 ease-in-out hover:scale-110" />
+
+      <div class="text-center text-sm lg:text-base">
+        <p class="cursor-pointer hover:text-[#F6821D] duration-300">Rice Supper Bundle</p>
+        <span class="text-[#878787]">★ ★ ★ ★ ★(4.8)</span>
+        <a class="cursor-pointer">39 Reviews</a>
+        <p class="text-red-500">Rs.7,499</p>
+      </div>
+    </div>
+
+    <div class="h-auto w-full lg:h-[370px] lg:w-[280px]">
+      <img src="33.webp" alt="Company Logo"
+        class="lg:h-[260px] lg:w-[260px] object-cover cursor-pointer transition duration-1000 ease-in-out hover:scale-110" />
+
+      <div class="text-center text-sm lg:text-base">
+        <p class="cursor-pointer hover:text-[#F6821D] duration-300">Dewy Skin Bundle</p>
+        <span class="text-[#878787]">(5.0)</span>
+        <a class="cursor-pointer">11 Reviews</a>
+        <p class="text-red-500">Rs.2,750</p>
+      </div>
+    </div>
+
+    <div class="h-auto w-full lg:h-[370px] lg:w-[280px]">
+      <img src="44.webp" alt="Company Logo"
+        class="lg:h-[260px] lg:w-[260px] object-cover cursor-pointer transition duration-1000 ease-in-out hover:scale-110" />
+
+      <div class="text-center text-sm lg:text-base">
+        <p class="cursor-pointer hover:text-[#F6821D] duration-300">Rice Korean Glass Skin Kit</p>
+        <p class="text-red-500">Rs.3,150</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="hidden peer-checked:flex fixed inset-0 bg-gray-300 bg-opacity-50 z-50 items-center justify-center">
+
+    <div class=" p-6 mx-2 sm:mx-4 shadow-lg bg-white w-full max-w-[300px] sm:w-[400px] h-auto sm:max-w-md relative">
+
+      <h1 class="font-bold">Rice Extract Facial Kit For Bright And Glowing Skin</h1>
+      <span class="text-red-600 mt-7 text-2xl">Rs. 2,499</span>
+      <span class="text-gray-500 text-2xl mt-7">Save Rs.296</span>
+
+      <button class="block space-x-3 px-6 py-1 rounded-3xl font-bold border border-black mt-4">
+        <Span>-</Span>
+        <Span>1</Span>
+        <Span>+</Span>
+      </button>
+
+      <a href="add.html"><button
+          class="bg-[#F6821D] hover:bg-[#b25410] transition duration-700 text-white py-2 w-full rounded-3xl block mt-4">Add
+          To Cart</button>
+      </a>
+
+      <a href="add2.html">
+        <button
+          class="bg-[#222222] hover:bg-[#b25410] transition duration-700 text-white py-2 w-full rounded-3xl block mt-4">Buy
+          It Now</button>
+      </a>
+      <!-- Close button -->
+      <label for="product1-modal"
+        class="absolute -top-2 bg-black -right-2 text-white px-2 py-1 hover:bg-[#F6821D] cursor-pointer text-2xl">
+        ✕
+      </label>
+    </div>
+  </div>
+
+  <!-- video section -->
+  <h2 class="font-semibold text-[18px] md:text-[23px] flex justify-center mt-[20px] md:mt-[40px]">Recommended by
+    Celebrities</h2>
+
+  <div
+    class="overflow-x-auto scrollbar-hide snap-x snap-mandatory h-[520px] sm:h-[800px] md:h-[350px] lg:h-[470px] gap-3 sm:gap-4 inline-flex mx-3 lg:mx-24 items-center mt-[20px]">
+
+    <video controls autoplay loop muted playsinline
+      class="cursor-pointer h-[350px] w-[185px] sm:w-[350px] sm:h-[720px] lg:w-[290px] lg:h-[450px] object-cover rounded-2xl md:rounded-3xl shadow-lg snap-star">
+      <source src="vid1.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <video controls autoplay loop muted playsinline
+      class="cursor-pointer h-[350px] w-[185px] sm:w-[350px] sm:h-[720px] lg:w-[270px] lg:h-[450px] rounded-2xl object-cover md:rounded-3xl shadow-lg snap-star">
+      <source src="vid2.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <video controls autoplay loop muted playsinline
+      class="cursor-pointer h-[350px] w-[185px] sm:w-[350px] sm:h-[720px] lg:w-[270px] lg:h-[450px] rounded-2xl object-cover md:rounded-3xl shadow-lg snap-star">
+      <source src="vid3.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <video controls autoplay loop muted playsinline
+      class="cursor-pointer h-[350px] w-[185px] sm:w-[350px] sm:h-[720px] lg:w-[270px] lg:h-[450px] rounded-2xl object-cover md:rounded-3xl shadow-lg snap-star">
+      <source src="vid4.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+  </div>
+
+  <!-- FAQS SECTION  -->
+  <div class="w-full h-auto text-[13px] ">
+    <span
+      class="text-[#000000]  text-[20px] md:text-[24px] flex justify-center font-bold sm:mt-4 md:mt-0 mt-4">FAQS</span>
+    <!-- <div class="flex justify-center items-center mt-5 cursor-pointer">
+        <div class="bg-[#F6F6F8] h-[45px] w-[1150px] px-5 py-3 ">What is deleivery time?</div>
+        <div class="h-[45px] w-[45px] bg-black text-white text-[20px] flex justify-center items-center">-</div>
+      </div>
+     
+     <div class="flex justify-center items-center">
+      <div class="h-[200px] w-[1195px] bg-[#FFFFFF] text-[#878787] px-[20px] border border-[#F6F6F8]">
+        <p class="mt-[20px]">We as a company believe in fast deliveries & usually deliver parcel to our customers in 2-5 days</p>
+        <p class=" mt-[20px]">For Delivery Issues & Information Please call or Whatsapp :</p>
+        <span class="inline-block mt-[20px]">Call: </span>
+        <a class="cursor-pointer ">042-111-000-990</a><br>
+        <span class="inline-block mt-[20px]">Whatsapp:</span>
+        <a class="cursor-pointer">0311-11-99-070</a>
+      </div>
+     </div> -->
+
+
+
+    <div class="max-w-[1195px] mx-3 lg:mx-auto border border-[#F6F6F8] mt-5">
+
+      <details class="bg-[#F6F6F8]">
+        <summary class="flex justify-between items-center cursor-pointer">
+          <div
+            class="bg-[#F6F6F8] h-[35px] md:h-[45px] md:w-[1150px] px-3 md:px-5 py-1.5 md:py-3 text-sm md:text-base ">
+            What is deleivery time?</div>
+          <div
+            class="h-[35px] w-[35px] md:h-[45px] md:w-[45px] bg-black text-white text-sm md:text-[20px] flex justify-center items-center">
+            -</div>
+        </summary>
+
+        <div class="flex justify-center items-center">
+          <div class="h-[200px] md:w-[1195px] bg-[#FFFFFF] text-[#878787] px-[10px] md:px-[20px]">
+            <p class="mt-[20px] text-sm lg:text-base">We as a company believe in fast deliveries & usually deliver
+              parcel to our customers in
+              2-5 days</p>
+            <p class=" mt-[20px] text-sm md:text-base">For Delivery Issues & Information Please call or Whatsapp :</p>
+            <span class="inline-block mt-[20px] text-sm lg:text-base">Call: </span>
+            <a class="cursor-pointer text-sm md:text-base">042-111-000-990</a><br>
+            <span class="inline-block mt-[20px] text-sm lg:text-base">Whatsapp:</span>
+            <a class="cursor-pointer text-sm md:text-base">0311-11-99-070</a>
+          </div>
+        </div>
+      </details>
+
+    </div>
+
+    <div class="max-w-[1195px] mx-3 lg:mx-auto border border-[#F6F6F8]  mt-5">
+
+      <details class="bg-[#F6F6F8] ">
+        <summary class="flex justify-between items-center cursor-pointer">
+          <div class="bg-[#F6F6F8] h-[35px] md:h-[45px] md:w-[1150px] px-3 md:px-5 py-1.5 md:py-3 text-sm md:text-base">
+            Can i return my parcel?</div>
+          <div
+            class="h-[35px] w-[35px] md:h-[45px] md:w-[45px] bg-black text-white text-[20px] flex justify-center items-center">
+            -</div>
+        </summary>
+
+        <div class="flex justify-center items-center">
+          <div class="h-[100px] w-[1195px] bg-[#FFFFFF] text-[#878787] px-[10px] md:px-[20px]">
+            <p class=" mt-[20px] text-sm md:text-base">Yes, if you received your parcel damaged or with missing
+              products, you can definitely
+              contact us within 24 hours to return it. Similarly, if you are not satisfied with our product after honest
+              usage, you can easily return it to us.</p>
+          </div>
+        </div>
+      </details>
+
+    </div>
+
+
+    <div class="max-w-[1195px] mx-3 lg:mx-auto border border-[#F6F6F8] mt-5">
+
+      <details class="bg-[#F6F6F8] ">
+        <summary class="flex justify-between items-center cursor-pointer">
+          <div class="bg-[#F6F6F8] h-[35px] md:h-[45px] md:w-[1150px] px-3 md:px-5 py-1.5 md:py-3 text-sm md:text-base">
+            Delivery Information</div>
+          <div
+            class="h-[35px] w-[35px] md:h-[45px] md:w-[45px] bg-black text-white text-[20px] flex justify-center items-center">
+            -</div>
+        </summary>
+
+        <div class="flex justify-center items-center bg-amber-700">
+          <div class="h-[150px] w-[1195px] bg-[#FFFFFF] text-[#878787] px-[10px] lg:px-[20px]">
+            <p class=" mt-[20px] text-sm md:text-base"> For Delivery Issues & Information Please call or Whatsapp :</p>
+            <span class="inline-block mt-[20px] text-sm md:text-base">Call: </span>
+            <a class="cursor-pointer text-sm md:text-base">042-111-000-990</a><br>
+            <span class="inline-block mt-[20px] text-sm md:text-base">Whatsapp:</span>
+            <a class="cursor-pointer text-sm md:text-base">0311-11-99-070</a>
+          </div>
+        </div>
+      </details>
+
+    </div>
+  </div>
+  <div class="h-auto max-w-[1195px]  mx-3 lg:mx-20 mt-20 ">
+    <h1 class="text-3xl md:text-3xl text-[#222222]">BNB: Best Organic Beauty & Skincare Brand in Pakistan</h1>
+    <p class="text-sm md:text-[13px] text-[#000000]">Pakistan is home to a thriving industry in the beauty and
+      skincare sector,
+      with a diverse selection of cosmetic and skincare brands that cater to the requirements of consumers</p>
+    <p class="text-sm md:text-[13px] mt-6 text-[#000000]">Body N Body is a pioneer in providing a variety of organic,
+      natural,
+      dermatologically tested, sulphate free and paraben free products that offer effective solutions without
+      compromising on quality or ethics, setting it apart from other brands.</p>
+    <p class="text-sm md:text-[13px] mt-6 text-[#000000]">Our mission is to create skin care products that are
+      specifically
+      suitable for Pakistani people's skin.</p>
+    <h1 class="text-3xl lg:text-3xl mt-6  text-[#222222]">Organic & Natural Skincare Products</h1>
+    <p class="text-sm md:text-[13px] ">Dedicated to providing customers with the best and safest products for their
+      skin, Body N
+      Body is among the top organic skincare brands in Pakistan. Their line consists of face cleansers, masks, scrubs,
+      serums, sunscreens, and creams, all made with natural and organic ingredients devoid of hazardous chemicals,
+      parabens, and sulphates.</p>
+    <p class="text-sm md:text-[13px] mt-6 text-[#000000]">Body N Body always prefers local and organic products, like
+      rice
+      extract, saffron, and tea tree oil.</p>
+    <p class="text-sm md:text-[13px] mt-6 text-[#000000]">Our vitamin C products offer powerful antioxidant protection
+      and a
+      radiant glow, while our rice extract products brighten and revive tired, dull skin.</p>
+    <h1 class="text-3xl md:text-3xl mt-6  text-[#222222]">Ethical & Sustainable Beauty</h1>
+    <p class="text-sm md:text-[13px] text-[#000000]">Body N Body stands apart from other Pakistani cosmetic products
+      because of
+      their persistent commitment to using only the best, ethically sourced, and organic ingredients. Our belief is in
+      providing a holistic approach to beauty and skincare that prioritises overall well-being and environmental
+      sustainability.</p>
+    <p class="text-sm md:text-[13px] mt-6 text-[#000000]">Body N Body has established itself as one of Pakistan's
+      greatest
+      organic skincare products, thanks to a rapidly rising customer base and a reputation for delivering exceptional
+      results.</p>
+    <p class="text-sm md:text-[13px] mt-6 text-[#000000]">Body N Body has something for everyone's skincare needs,
+      whether you're
+      looking for a gentle yet efficient acne treatment, a nourishing and brightening face mask, or a dependable
+      sunscreen for daily protection.</p>
+    <p class="text-sm md:text-[13px] mt-6 text-[#000000]">If you're looking for the top organic cosmetic, beauty and
+      skincare
+      companies in Pakistan, look no further than Body N Body, where natural beauty meets science and ethics, offering
+      a wide choice of products that are not only excellent for your skin, but also good for the environment.</p>
+
+  </div>
+
+  <footer>
+    <div class=" bg-[#f7f7f7] w-full mt-16 text-[#878787] flex flex-col md:flex-row md:justify-center">
+
+      <div class="sm:w-[300px] md:w-[350px] md:h-[360px]  ml-3 lg:ml-4 xl:ml-20 py-10">
+        <div class="">
+          <i class="fa-solid fa-location-dot"></i>
+          <span class="text-[14px]"> Body N Body Global 85 Great Portland Street, 1st Floor. London, England,
+            W1W7LT</span>
+        </div>
+
+        <div class="mt-4">
+          <i class="fa-solid fa-location-dot"></i>
+          <span class="text-[14px] ">Muslim Town Lahore Pakistan</span>
+        </div>
+
+        <div class="mt-4">
+          <h2 class="text-[16px] font-bold">For Customer Support</h2>
+          <h2 class="text-[16px] font-bold">to 8PM(Mon to Sat)</h2>
+          <i class="fa-solid fa-phone"></i><br>
+          <span class=" text-[14px] hover:text-[#f29131] cursor-pointer ">042-111-000-990</span>
+          <span class=" text-[14px] font-bold">(Call)</span>
+        </div>
+        <div class="mt-4">
+          <i class="fa-brands fa-whatsapp cursor-pointer"></i>
+          <div class="hover:text-[#f29131]">
+            <span class=" text-[14px] cursor-pointer">0311-119070</span>
+            <span class=" text-[14px] font-bold cursor-pointer ">Watsapp</span>
+          </div>
+        </div>
+
+        <div class="mt-4">
+          <span>
+            <i class="fa-solid fa-envelope"></i>
+          </span>
+          <a class=" text-[14px] hover:text-[#f29131] cursor-pointer">Support@bodynbody.com</a>
+        </div>
+
+        <div class="flex items-center gap-3 mt-4">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-tiktok"></i>
+
+        </div>
+
+      </div>
+
+      <div class=" py-10 w-auto ml-3 lg:ml-6 lg:w-[200px] xl:ml-20">
+        <h3 class="text-[17px] text-black">Shop</h3>
+        <a class="hover:text-[#f29131] block cursor-pointer text-[14px] mt-8">Best Selling </a><br>
+        <a class="hover:text-[#f29131] block cursor-pointer text-[14px] mt-4">Rice Extract Products</a><br>
+        <a class="hover:text-[#f29131] block cursor-pointer text-[14px] mt-4">Vitamin C Products</a>
+      </div>
+
+      <div class=" py-10 w-auto ml-3 lg:ml-6 lg:w-[200px] xl:ml-20">
+        <h3 class="text-[17px] text-black">Help</h3>
+        <a class="hover:text-[#f29131] block cursor-pointer text-[14px] mt-8">Happy Customers</a><br>
+        <a class="hover:text-[#f29131] block cursor-pointer text-[14px] mt-4">Privacy Policy</a><br>
+        <a class="hover:text-[#f29131] block cursor-pointer text-[14px] mt-4">Refund Policy</a>
+        <a class="hover:text-[#f29131] block cursor-pointer text-[14px] mt-4">Shipping Policy</a>
+        <a class="hover:text-[#f29131] block cursor-pointer text-[14px] mt-4">Terms of Service</a>
+        <a class="hover:text-[#f29131] block cursor-pointer text-[14px] mt-4">FAQ's</a>
+      </div>
+
+      <div class="py-10 mx-3 xl:mx-20">
+        <h3 class="text-[17px] text-black">News Letter Signup</h3>
+        <p class="text-[14px] mt-8">Subscribe to our newsletter and get 5% off your first</p>
+        <p> purchase</p>
+        <div class="w-full sm:w-[720px] md:w-[350px] h-[45px] border border-gray-600 rounded-full flex mt-4">
+          <input type="email" placeholder="Your email address"
+            class="rounded-l-full h-[45px] w-full md:w-[330px] px-2 outline-none" />
+          <button
+            class="bg-[#222222] w-[120px] rounded-r-full my-0.5 mr-0.5 hover:bg-[#f29131] text-white cursor-pointer">Subscribe</button>
+        </div>
+        <img src="logo-acerta.avif" class="sm:mx-3 sm:h-[60px] mt-6 cursor-pointer">
+      </div>
+    </div>
+
+    <div class="bg-[#f7f7f7] flex flex-col md:flex-row justify-center items-center pb-80 sm:pb-10 md:pb-0 ">
+      <div class="h-[60px] w-full ml-32 md:mt-5 md:ml-0 lg:ml-20 ">
+        <span class="text-[#878787]">© Copyright 2025,</span> <span class="text-[#f29131]">BodyNBody.</span>
+      </div>
+      <div class="sm:mx-3 md:mr-20 flex">
+        <img src="logo-jazz.avif" class="h-[25px] md:h-[45px] sm:w-[300px] w-[350px] md:w-[500px] cursor-pointer">
+      </div>
+
+    </div>
+  </footer>
+</body>
+
+</html>
